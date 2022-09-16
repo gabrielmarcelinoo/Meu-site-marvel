@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-
+/* reset*/
 *{
     margin: 0;
     padding: 0;
@@ -22,11 +22,13 @@ body{
   flex-direction: column;  
   padding: 50px 128px 50px 128px ;
   background: linear-gradient(85deg, #000, #000D 40%, #0000), 
-  url(./images/avengers-end-game-4k-banner-cb.jpg);
+  url(../images/avengers-end-game-4k-banner-cb.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 /* 80px 128px 50px 128px */
+
+/*header*/
 header{
   display:flex;
   justify-content: space-between;

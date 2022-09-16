@@ -63,11 +63,10 @@ header {
   width: 100%;
   height: 400px;
   background: linear-gradient(50deg, rgb(0, 0, 0), rgba(0, 0, 0, 0.300), rgb(0, 0, 0)),
-    url(./images/bghq.jpg);
+    url(../images/bghq.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .title-banner {
   color: #FFF;
   font-size: 2rem;
@@ -75,17 +74,6 @@ header {
   padding-top: 200px;
   font-family: 'Permanent Marker', cursive;
 }
-
-.section-title {
-  width: 100%;
-  height: 50px;
-  background-color: rgb(0, 0, 0);
-  color: #FFF;
-  text-align: center;
-  padding-top: 10px;
-  font-size: 1.2rem;
-}
-
 .text-banner {
   text-align: center;
   color: #FFF;
@@ -104,9 +92,9 @@ main {
   margin-top: 60px;
   gap: 60px;
   color: #FFF;
-
 }
 
+/* Iron man */
 .card-iron {
   width: 15%;
   height: 400px;
@@ -114,7 +102,23 @@ main {
   border-radius: 15px;
   transition: all .9s;
 }
+.card-img-iron {
+  background-image: url(../images/ironman.webp);
+  background-size: cover;
+  border-radius: 15px 0px 0px 0px;
+  width: 100%;
+  height: 150px;
+}
+.card-hearder-iron{
+  width: 100%;
+  height: 220px;
+  background-color: aqua;
+}
+.card-iron:hover {
+  background-color: rgb(196, 16, 16);
+}
 
+/*Spider man*/
 .card-spider {
   width: 15%;
   height: 400px;
@@ -122,16 +126,49 @@ main {
   border-radius: 15px;
   transition: all .9s;
 }
+.card-img-spider {
+  background-image: url(../images/SpiderMan.webp);
+  background-size: cover;
+  border-radius: 15px 0px 0px 0px;
+  width: 100%;
+  height: 150px;
+}
+.card-header-spider{
+  width: 100%;
+  height: 220px;
+  background-color: aqua;
+}
 
+.card-wanda:hover {
+  background-color: rgb(196, 16, 16);
+}
+
+/* Wanda */
 .card-wanda {
   width: 15%;
   height: 400px;
   background-color: black;
   border-radius: 15px;
   transition: all .9s;
-  padding: 10px;
+}
+.card-img-wanda {
+  background-image: url(../images/wandamaximoff.jpg);
+  background-size: cover;
+  border-radius: 15px 0px 0px 0px;
+  width: 100%;
+  height: 150px;
+  margin: 0;
+}
+.card-header-wanda{
+  width: 100%;
+  height: 220px;
+  background-color: aqua;
+}
+.card-wanda:hover {
+  background-color: rgb(196, 16, 16);
 }
 
+/* Doctor */
 .card-doctor {
   width: 15%;
   height: 400px;
@@ -139,39 +176,33 @@ main {
   border-radius: 15px;
   transition: all .9s;
 }
-
-.card-img-iron {
-  background-image: url(./images/ironman.webp);
-  background-size: cover;
-  border-radius: 15px 0px 0px 0px;
-  width: 100%;
-  height: 150px;
-}
-
 .card-img-doctor {
-  background-image: url(./images/DoctorStrange.jpg);
+  background-image: url(../images/DoctorStrange.jpg);
   background-size: cover;
   border-radius: 15px 0px 0px 0px;
   width: 100%;
   height: 150px;
+}
+.card-header-doctor{
+  width: 100%;
+  height: 220px;
+  padding: 15px;
+  text-align: center;
+}
+.card-footer-doctor{
+  background-color: bisque;
+ 
 }
 
-.card-img-wanda {
-  background-image: url(./images/wandamaximoff.jpg);
-  background-size: cover;
-  border-radius: 15px 0px 0px 0px;
-  width: 100%;
-  height: 150px;
-  margin: 0;
+.card-doctor:hover {
+  background-color: rgb(196, 16, 16);
 }
 
-.card-img-spider {
-  background-image: url(./images/SpiderMan.webp);
-  background-size: cover;
-  border-radius: 15px 0px 0px 0px;
-  width: 100%;
-  height: 150px;
-}
+
+
+
+
+
 
 .card-hulk {
   width: 15%;
@@ -203,7 +234,7 @@ main {
 }
 
 .card-img-hulk {
-  background-image: url(./images/hulk.webp);
+  background-image: url(../images/hulk.webp);
   background-size: cover;
   border-radius: 15px 15px 0px 0px;
   width: 100%;
@@ -211,7 +242,7 @@ main {
 }
 
 .card-img-captain {
-  background-image: url(./images/capitaoamerica.jpg);
+  background-image: url(../images/capitaoamerica.jpg);
   background-size: cover;
   border-radius: 15px 15px 0px 0px;
   width: 100%;
@@ -219,7 +250,7 @@ main {
 }
 
 .card-img-ant {
-  background-image: url(./images/homem-formiga.webp);
+  background-image: url(../images/homem-formiga.webp);
   background-size: cover;
   border-radius: 15px 15px 0px 0px;
   width: 100%;
@@ -227,32 +258,11 @@ main {
 }
 
 .card-img-gaviao {
-  background-image: url(./images/SpiderMan.webp);
+  background-image: url(../images/SpiderMan.webp);
   background-size: cover;
   border-radius: 15px 15px 0px 0px;
   width: 100%;
   height: 150px;
-
-}
-
-.card-spider:hover {
-  background-color: rgb(196, 16, 16);
-}
-
-.card-doctor:hover {
-  background-color: rgb(196, 16, 16);
-}
-
-.card-wanda:hover {
-  background-color: rgb(196, 16, 16);
-}
-
-.card-ant:hover {
-  background-color: rgb(196, 16, 16);
-}
-
-.card-iron:hover {
-  background-color: rgb(196, 16, 16);
 }
 
 .content-personagens-2 {
