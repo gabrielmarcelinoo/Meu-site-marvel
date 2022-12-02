@@ -83,7 +83,7 @@ header {
 main {
 
   width: 100%;
-  height: 1000vh;
+ 
 }
 
 .container-personagens {
@@ -94,20 +94,24 @@ main {
   color: #FFF;
 }
 
-/* Iron man */
-.card-iron {
+#cards{
   width: 15%;
   height: 400px;
   background-color: black;
   border-radius: 15px;
   transition: all .9s;
 }
-.card-img-iron {
-  background-image: url(../images/ironman.webp);
+#cards-img{
   background-size: cover;
   border-radius: 15px 0px 0px 0px;
   width: 100%;
   height: 150px;
+}
+
+/* Iron man */
+
+.card-img-iron {
+  background-image: url(../images/ironman.webp);
 }
 .card-hearder-iron{
   width: 100%;
@@ -119,19 +123,9 @@ main {
 }
 
 /*Spider man*/
-.card-spider {
-  width: 15%;
-  height: 400px;
-  background-color: black;
-  border-radius: 15px;
-  transition: all .9s;
-}
+
 .card-img-spider {
   background-image: url(../images/SpiderMan.webp);
-  background-size: cover;
-  border-radius: 15px 0px 0px 0px;
-  width: 100%;
-  height: 150px;
 }
 .card-header-spider{
   width: 100%;
@@ -144,101 +138,43 @@ main {
 }
 
 /* Wanda */
-.card-wanda {
-  width: 15%;
-  height: 400px;
-  background-color: black;
-  border-radius: 15px;
-  transition: all .9s;
-}
+
 .card-img-wanda {
   background-image: url(../images/wandamaximoff.jpg);
-  background-size: cover;
-  border-radius: 15px 0px 0px 0px;
-  width: 100%;
-  height: 150px;
-  margin: 0;
 }
 .card-header-wanda{
   width: 100%;
-  height: 220px;
-  background-color: aqua;
+  height: 220px; 
+  margin-top: 20px;
+  text-align: center;
 }
 .card-wanda:hover {
   background-color: rgb(196, 16, 16);
 }
 
 /* Doctor */
-.card-doctor {
-  width: 15%;
-  height: 400px;
-  background-color: black;
-  border-radius: 15px;
-  transition: all .9s;
-}
+
 .card-img-doctor {
   background-image: url(../images/DoctorStrange.jpg);
-  background-size: cover;
-  border-radius: 15px 0px 0px 0px;
-  width: 100%;
-  height: 150px;
+  
 }
 .card-header-doctor{
   width: 100%;
   height: 220px;
-  padding: 15px;
   text-align: center;
 }
 .card-footer-doctor{
   background-color: bisque;
- 
 }
 
 .card-doctor:hover {
   background-color: rgb(196, 16, 16);
 }
 
-
-
-
-
-
-
-.card-hulk {
-  width: 15%;
-  height: 400px;
-  background-color: black;
-  border-radius: 15px;
-}
-
-.card-captain {
-  width: 15%;
-  height: 400px;
-  background-color: black;
-  border-radius: 15px;
-  transition: all .8s;
-}
-
-.card-ant {
-  width: 15%;
-  height: 400px;
-  background-color: black;
-  border-radius: 15px;
-}
-
-.card-gaviao {
-  width: 15%;
-  height: 400px;
-  background-color: black;
-  border-radius: 15px;
-}
+/*section 2*/
 
 .card-img-hulk {
   background-image: url(../images/hulk.webp);
-  background-size: cover;
-  border-radius: 15px 15px 0px 0px;
-  width: 100%;
-  height: 150px;
 }
 
 .card-img-captain {
@@ -251,18 +187,10 @@ main {
 
 .card-img-ant {
   background-image: url(../images/homem-formiga.webp);
-  background-size: cover;
-  border-radius: 15px 15px 0px 0px;
-  width: 100%;
-  height: 150px;
 }
 
 .card-img-gaviao {
   background-image: url(../images/SpiderMan.webp);
-  background-size: cover;
-  border-radius: 15px 15px 0px 0px;
-  width: 100%;
-  height: 150px;
 }
 
 .content-personagens-2 {
@@ -279,10 +207,25 @@ main {
 .section-1 {
   width: 100%;
   height: 500px;
-
 }
 
 .section-2 {
   width: 100%;
   height: 500px;
 }
+
+/* footer*/
+
+footer{
+  width: 100%;
+  height: 200px;
+  background-color: rgb(32, 32, 32);
+}
+
+.social-links{
+  width: 20%;
+  height: 100px;
+  background-color: aqua;
+  margin:30px 30px 30px 30px;
+}
+        
